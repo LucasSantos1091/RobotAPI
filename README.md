@@ -4,12 +4,15 @@
  
  ## Necessario instalar Python e RobotFramewok
  
+https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#installation-instructions
  
-###Library Necessaria
 
-´´´sh
+ 
+### Library Necessaria
+
+```sh
 pip install -u robotframework-request
-sh´´´
+```
  
  ### Cenários
  
@@ -19,6 +22,6 @@ sh´´´
  
  
 ### Execução
-´´´sh
+```sh
 robot -d \results .\TestCasesAPIweather.robot
-´´´
+```
